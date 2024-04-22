@@ -1,4 +1,4 @@
-# 1mport requests
+import requests
 import json
 import time
 import os
@@ -56,5 +56,3 @@ def Login(username,password):
 		return False
 		print ('Password incorrect [%s]' % password)
 		return False
-
-
